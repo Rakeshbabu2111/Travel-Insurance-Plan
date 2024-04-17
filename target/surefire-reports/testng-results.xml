@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-16T11:01:21 IST" name="Suite" finished-at="2024-04-16T11:03:13 IST" duration-ms="111832">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.testRunner@7cc0cdad]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-04-16T11:01:21 IST" name="Test" finished-at="2024-04-16T11:03:13 IST" duration-ms="111832">
+      <class name="testRunner.testRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.testRunner@7cc0cdad]" started-at="2024-04-16T11:01:21 IST" name="setUpClass" finished-at="2024-04-16T11:01:22 IST" duration-ms="827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@194037f9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.testRunner@7cc0cdad]" started-at="2024-04-16T11:01:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-16T11:02:16 IST" duration-ms="54585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation of user interaction with policy bazzar site when user searches for Travel insurance plans"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Travel insurance plan for students-Policy Bazzar"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.testRunner@7cc0cdad]" started-at="2024-04-16T11:02:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-16T11:02:32 IST" duration-ms="16211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Insurance products in Health insurance"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Travel insurance plan for students-Policy Bazzar"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.testRunner@7cc0cdad]" started-at="2024-04-16T11:02:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-16T11:03:02 IST" duration-ms="29324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation of user interaction with policybazzar site when user searches for car insurance plans"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Travel insurance plan for students-Policy Bazzar"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.testRunner@7cc0cdad]" started-at="2024-04-16T11:03:02 IST" name="tearDownClass" finished-at="2024-04-16T11:03:13 IST" duration-ms="10828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.testRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
